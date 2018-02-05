@@ -1,15 +1,12 @@
-package introduction;
+package _30_days_of_code;
+
 
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
-/*
- * Problem description
- * https://www.hackerrank.com/challenges/java-loops-i/problem
- */
-public class _06_Java_loops {
-	private static File f = new File("resources/introduction/input5.txt");
+public class Day_02_Operators {
+	private static File f = new File("resources/_30_days_of_code/day_02.txt");
 	private static Scanner scan = null ;
 	
 	private static boolean SUBMIT = false;
@@ -22,7 +19,6 @@ public class _06_Java_loops {
 
 
 	private static void solution() {
-		
 		double mealCost = scan.nextDouble(); // original meal price
         int tipPercent = scan.nextInt(); // tip percentage
         int taxPercent = scan.nextInt(); // tax percentage
@@ -39,7 +35,6 @@ public class _06_Java_loops {
         
         // Print your result
         System.out.format("The total meal cost is %d dollars.", totalCost);
-
 	}
 
 
