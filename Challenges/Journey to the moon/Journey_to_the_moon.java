@@ -118,10 +118,6 @@ public class Journey_to_the_moon {
         return combinations;
     }
 
-	
-
-
-	
 
 
 	private static void setup(boolean submit) {
